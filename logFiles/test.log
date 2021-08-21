@@ -138,3 +138,225 @@
 21-08-2021 17:03:49,INFO,Threading join !
 21-08-2021 17:03:49,INFO,Prediction success!
 21-08-2021 17:03:49,INFO,Output displayed!
+21-08-2021 17:12:12,INFO,Requested method : POST
+21-08-2021 17:12:12,INFO,Pickle Model Loaded
+21-08-2021 17:12:12,INFO,Data Converted 
+21-08-2021 17:12:12,INFO,Threading Called !
+21-08-2021 17:12:12,INFO,Threading Created !
+21-08-2021 17:12:12,INFO,Data received From User : {'Airline': 'IndiGo', 'Source': 'Banglore', 'Destination': 'Delhi', 'Total_Stops': 'non-stop', 'Departure_Date': '2021-08-31', 'Total_Duration': 5, 'submit': ' Calculate Total Flight Fare! '}
+21-08-2021 17:12:12,INFO,Threading Started !
+21-08-2021 17:12:12,INFO,Data for Database: {'Airline': 'IndiGo', 'Source': 'Banglore', 'Destination': 'Delhi', 'Total_Stops': 'non-stop', 'Departure_Date': '2021-08-31', 'Total_Duration': 5, 'submit': ' Calculate Total Flight Fare! '}
+21-08-2021 17:12:12,INFO,Data Cleaned : {'Airline': 'IndiGo', 'Source': 'Banglore', 'Destination': 'Delhi', 'Total_Stops': 'non-stop', 'Total_Duration': 5, 'Journey_month': '08', 'Journey_day': '31'}
+21-08-2021 17:12:12,INFO,Obj created
+21-08-2021 17:12:12,INFO,Frame created and data appended
+21-08-2021 17:12:12,INFO,Dummy variables created from received data
+21-08-2021 17:12:12,INFO,Data scaled and sent for prediction
+21-08-2021 17:12:27,INFO,Inside addData
+21-08-2021 17:12:27,INFO,Inside addData
+21-08-2021 17:12:27,INFO,String created
+21-08-2021 17:12:27,INFO,Key created
+21-08-2021 17:12:28,INFO,Column inserted <cassandra.cluster.ResultSet object at 0x000001CE96D4E070>
+21-08-2021 17:12:28,INFO,Data retrieved
+21-08-2021 17:12:28,INFO,Threading join !
+21-08-2021 17:12:28,INFO,Prediction success!
+21-08-2021 17:12:28,INFO,Output displayed!
+21-08-2021 17:13:03,INFO,Requested method : POST
+21-08-2021 17:13:03,INFO,Pickle Model Loaded
+21-08-2021 17:13:03,INFO,Data Converted 
+21-08-2021 17:13:03,INFO,Threading Called !
+21-08-2021 17:13:03,INFO,Threading Created !
+21-08-2021 17:13:03,INFO,Data received From User : {'Airline': 'IndiGo', 'Source': 'Banglore', 'Destination': 'Delhi', 'Total_Stops': 'non-stop', 'Departure_Date': '2021-08-31', 'Total_Duration': 5, 'submit': ' Calculate Total Flight Fare! '}
+21-08-2021 17:13:03,INFO,Data for Database: {'Airline': 'IndiGo', 'Source': 'Banglore', 'Destination': 'Delhi', 'Total_Stops': 'non-stop', 'Departure_Date': '2021-08-31', 'Total_Duration': 5, 'submit': ' Calculate Total Flight Fare! '}
+21-08-2021 17:13:03,INFO,Threading Started !
+21-08-2021 17:13:03,INFO,Data Cleaned : {'Airline': 'IndiGo', 'Source': 'Banglore', 'Destination': 'Delhi', 'Total_Stops': 'non-stop', 'Total_Duration': 5, 'Journey_month': '08', 'Journey_day': '31'}
+21-08-2021 17:13:03,INFO,Obj created
+21-08-2021 17:13:03,INFO,Frame created and data appended
+21-08-2021 17:13:03,INFO,Dummy variables created from received data
+21-08-2021 17:13:03,INFO,Data scaled and sent for prediction
+21-08-2021 17:13:29,INFO,Inside addData
+21-08-2021 17:13:29,INFO,Inside addData
+21-08-2021 17:13:29,INFO,String created
+21-08-2021 17:13:29,INFO,Key created
+21-08-2021 17:13:30,INFO,Column inserted <cassandra.cluster.ResultSet object at 0x000001CE96E0DDF0>
+21-08-2021 17:13:30,INFO,Data retrieved
+21-08-2021 17:13:30,INFO,Threading join !
+21-08-2021 17:13:30,INFO,Prediction success!
+21-08-2021 17:13:30,INFO,Output displayed!
+21-08-2021 17:14:36,INFO,Requested method : POST
+21-08-2021 17:14:36,INFO,Pickle Model Loaded
+21-08-2021 17:14:36,INFO,Data Converted 
+21-08-2021 17:14:36,INFO,Threading Called !
+21-08-2021 17:14:36,INFO,Threading Created !
+21-08-2021 17:14:36,INFO,Threading Started !
+21-08-2021 17:14:36,INFO,Data for Database: {'Airline': 'IndiGo', 'Source': 'Banglore', 'Destination': 'Delhi', 'Total_Stops': 'non-stop', 'Departure_Date': '2021-08-31', 'Total_Duration': 5, 'submit': ' Calculate Total Flight Fare! '}
+21-08-2021 17:14:36,INFO,Data received From User : {'Airline': 'IndiGo', 'Source': 'Banglore', 'Destination': 'Delhi', 'Total_Stops': 'non-stop', 'Departure_Date': '2021-08-31', 'Total_Duration': 5, 'submit': ' Calculate Total Flight Fare! '}
+21-08-2021 17:14:36,INFO,Data Cleaned : {'Airline': 'IndiGo', 'Source': 'Banglore', 'Destination': 'Delhi', 'Total_Stops': 'non-stop', 'Total_Duration': 5, 'Journey_month': '08', 'Journey_day': '31'}
+21-08-2021 17:14:36,INFO,Frame created and data appended
+21-08-2021 17:14:36,INFO,Dummy variables created from received data
+21-08-2021 17:14:36,INFO,Data scaled and sent for prediction
+21-08-2021 17:14:36,INFO,Threading join !
+21-08-2021 17:14:36,INFO,Prediction success!
+21-08-2021 17:14:36,INFO,Output displayed!
+21-08-2021 17:14:43,INFO,Requested method : POST
+21-08-2021 17:14:43,INFO,Pickle Model Loaded
+21-08-2021 17:14:43,INFO,Data Converted 
+21-08-2021 17:14:43,INFO,Threading Called !
+21-08-2021 17:14:43,INFO,Threading Created !
+21-08-2021 17:14:43,INFO,Threading Started !
+er : {'Airline': 'IndiGo', 'Source': 'Banglore', 'Destination': 'Delhi', 'Total_Stops': 'non-stop', 'Departure_Date': '2021-08-31', 'Total_Duration': 5, 'submit': ' Calculate Total Flight Fare! '}
+21-08-2021 17:14:43,INFO,Data for Database: {'Airline': 'IndiGo', 'Source': 'Banglore', 'Destination': 'Delhi', 'Total_Stops': 'non-stop', 'Departure_Date': '2021-08-31', 'Total_Duration': 5, 'submit': ' Calculate Total Flight Fare! '}
+21-08-2021 17:14:43,INFO,Data Cleaned : {'Airline': 'IndiGo', 'Source': 'Banglore', 'Destination': 'Delhi', 'Total_Stops': 'non-stop', 'Total_Duration': 5, 'Journey_month': '08', 'Journey_day': '31'}
+21-08-2021 17:14:43,INFO,Obj created
+21-08-2021 17:14:43,INFO,Frame created and data appended
+21-08-2021 17:14:43,INFO,Dummy variables created from received data
+21-08-2021 17:14:43,INFO,Data scaled and sent for prediction
+21-08-2021 17:15:04,INFO,Inside addData
+21-08-2021 17:15:04,INFO,Inside addData
+21-08-2021 17:15:04,INFO,String created
+21-08-2021 17:15:04,INFO,Key created
+21-08-2021 17:15:05,INFO,Column inserted <cassandra.cluster.ResultSet object at 0x000001CE96C8C610>
+21-08-2021 17:15:05,INFO,Data retrieved
+21-08-2021 17:15:05,INFO,Threading join !
+21-08-2021 17:15:05,INFO,Prediction success!
+21-08-2021 17:15:05,INFO,Output displayed!
+21-08-2021 17:15:15,INFO,Requested method : POST
+21-08-2021 17:15:15,INFO,Pickle Model Loaded
+21-08-2021 17:15:15,INFO,Data Converted 
+21-08-2021 17:15:15,INFO,Threading Called !
+21-08-2021 17:15:15,INFO,Threading Created !
+21-08-2021 17:15:15,INFO,Data for Database: {'Airline': 'IndiGo', 'Source': 'Banglore', 'Destination': 'Delhi', 'Total_Stops': 'non-stop', 'Departure_Date': '2021-08-31', 'Total_Duration': 5, 'submit': ' Calculate Total Flight Fare! '}
+21-08-2021 17:15:15,INFO,Threading Started !
+21-08-2021 17:15:15,INFO,Data received From User : {'Airline': 'IndiGo', 'Source': 'Banglore', 'Destination': 'Delhi', 'Total_Stops': 'non-stop', 'Departure_Date': '2021-08-31', 'Total_Duration': 5, 'submit': ' Calculate Total Flight Fare! '}
+21-08-2021 17:15:15,INFO,Data Cleaned : {'Airline': 'IndiGo', 'Source': 'Banglore', 'Destination': 'Delhi', 'Total_Stops': 'non-stop', 'Total_Duration': 5, 'Journey_month': '08', 'Journey_day': '31'}
+21-08-2021 17:15:15,INFO,Frame created and data appended
+21-08-2021 17:15:15,INFO,Dummy variables created from received data
+21-08-2021 17:15:15,INFO,Data scaled and sent for prediction
+21-08-2021 17:15:15,INFO,Threading join !
+21-08-2021 17:15:15,INFO,Prediction success!
+21-08-2021 17:15:15,INFO,Output displayed!
+21-08-2021 17:16:49,INFO,Requested method : POST
+21-08-2021 17:16:50,INFO,Pickle Model Loaded
+21-08-2021 17:16:50,INFO,Data Converted 
+21-08-2021 17:16:50,INFO,Threading Called !
+21-08-2021 17:16:50,INFO,Threading Created !
+21-08-2021 17:16:50,INFO,Data received From User : {'Airline': 'Jet Airways', 'Source': 'Kolkata', 'Destination': 'Banglore', 'Total_Stops': '1 stop', 'Departure_Date': '2021-08-30', 'Total_Duration': 5, 'submit': ' Calculate Total Flight Fare! '}
+21-08-2021 17:16:50,INFO,Data for Database: {'Airline': 'Jet Airways', 'Source': 'Kolkata', 'Destination': 'Banglore', 'Total_Stops': '1 stop', 'Departure_Date': '2021-08-30', 'Total_Duration': 5, 'submit': ' Calculate Total Flight Fare! '}
+21-08-2021 17:16:50,INFO,Threading Started !
+21-08-2021 17:16:50,INFO,Data Cleaned : {'Airline': 'Jet Airways', 'Source': 'Kolkata', 'Destination': 'Banglore', 'Total_Stops': '1 stop', 'Total_Duration': 5, 'Journey_month': '08', 'Journey_day': '30'}
+21-08-2021 17:16:50,INFO,Frame created and data appended
+21-08-2021 17:16:50,INFO,Dummy variables created from received data
+21-08-2021 17:16:50,INFO,Data scaled and sent for prediction
+21-08-2021 17:16:50,INFO,Threading join !
+21-08-2021 17:16:50,INFO,Prediction success!
+21-08-2021 17:16:50,INFO,Output displayed!
+21-08-2021 17:17:15,INFO,Requested method : POST
+21-08-2021 17:17:15,INFO,Pickle Model Loaded
+21-08-2021 17:17:15,INFO,Data Converted 
+21-08-2021 17:17:15,INFO,Threading Called !
+21-08-2021 17:17:15,INFO,Threading Created !
+21-08-2021 17:17:15,INFO,Data for Database: {'Airline': 'Jet Airways', 'Source': 'Kolkata', 'Destination': 'Banglore', 'Total_Stops': '1 stop', 'Departure_Date': '2021-08-30', 'Total_Duration': 5, 'submit': ' Calculate Total Flight Fare! '}
+e! '}
+21-08-2021 17:17:15,INFO,Threading Started !
+21-08-2021 17:17:15,INFO,Data Cleaned : {'Airline': 'Jet Airways', 'Source': 'Kolkata', 'Destination': 'Banglore', 'Total_Stops': '1 stop', 'Total_Duration': 5, 'Journey_month': '08', 'Journey_day': '30'}
+21-08-2021 17:17:15,INFO,Frame created and data appended
+21-08-2021 17:17:15,INFO,Dummy variables created from received data
+21-08-2021 17:17:15,INFO,Data scaled and sent for prediction
+21-08-2021 17:17:15,INFO,Threading join !
+21-08-2021 17:17:15,INFO,Prediction success!
+21-08-2021 17:17:16,INFO,Output displayed!
+21-08-2021 17:17:30,INFO,Requested method : POST
+21-08-2021 17:17:30,INFO,Pickle Model Loaded
+21-08-2021 17:17:30,INFO,Data Converted 
+21-08-2021 17:17:30,INFO,Threading Called !
+21-08-2021 17:17:30,INFO,Threading Created !
+21-08-2021 17:17:30,INFO,Data received From User : {'Airline': 'Jet Airways', 'Source': 'Kolkata', 'Destination': 'Banglore', 'Total_Stops': '1 stop', 'Departure_Date': '2021-08-30', 'Total_Duration': 5, 'submit': ' Calculate Total Flight Fare! '}
+21-08-2021 17:17:30,INFO,Data for Database: {'Airline': 'Jet Airways', 'Source': 'Kolkata', 'Destination': 'Banglore', 'Total_Stops': '1 stop', 'Departure_Date': '2021-08-30', 'Total_Duration': 5, 'submit': ' Calculate Total Flight Fare! '}
+21-08-2021 17:17:30,INFO,Threading Started !
+21-08-2021 17:17:30,INFO,Data Cleaned : {'Airline': 'Jet Airways', 'Source': 'Kolkata', 'Destination': 'Banglore', 'Total_Stops': '1 stop', 'Total_Duration': 5, 'Journey_month': '08', 'Journey_day': '30'}
+21-08-2021 17:17:30,INFO,Obj created
+21-08-2021 17:17:30,INFO,Frame created and data appended
+21-08-2021 17:17:30,INFO,Dummy variables created from received data
+21-08-2021 17:17:30,INFO,Data scaled and sent for prediction
+21-08-2021 17:17:47,INFO,Inside addData
+21-08-2021 17:17:47,INFO,Inside addData
+21-08-2021 17:17:47,INFO,String created
+21-08-2021 17:17:47,INFO,Key created
+21-08-2021 17:17:48,INFO,Column inserted <cassandra.cluster.ResultSet object at 0x000001D641D4F130>
+21-08-2021 17:17:48,INFO,Data retrieved
+21-08-2021 17:17:48,INFO,Threading join !
+21-08-2021 17:17:48,INFO,Prediction success!
+21-08-2021 17:17:48,INFO,Output displayed!
+21-08-2021 17:23:37,INFO,Obj created
+21-08-2021 17:23:56,INFO,Retrieved Data from Database : Row(id=UUID('167eb167-c886-461b-8fb9-dcdf79fbe19d'), airline='SpiceJet', destination='Delhi', journey_day=5, journey_month=8, source='Mumbai', total_duration=2, total_stops='2 stops')
+21-08-2021 18:25:02,INFO,Requested method : POST
+21-08-2021 18:25:10,INFO,Pickle Model Loaded
+21-08-2021 18:25:10,INFO,Data Converted 
+21-08-2021 18:25:10,INFO,Threading Called !
+21-08-2021 18:25:10,INFO,Threading Created !
+21-08-2021 18:25:10,INFO,Data received From User : {'Airline': 'IndiGo', 'Source': 'Banglore', 'Destination': 'Delhi', 'Total_Stops': 'non-stop', 'Departure_Date': '2021-08-30', 'Total_Duration': 5, 'submit': ' Submit '}
+21-08-2021 18:25:10,INFO,Data for Database: {'Airline': 'IndiGo', 'Source': 'Banglore', 'Destination': 'Delhi', 'Total_Stops': 'non-stop', 'Departure_Date': '2021-08-30', 'Total_Duration': 5, 'submit': ' Submit '}
+21-08-2021 18:25:10,INFO,Threading Started !
+21-08-2021 18:25:10,INFO,Data Cleaned : {'Airline': 'IndiGo', 'Source': 'Banglore', 'Destination': 'Delhi', 'Total_Stops': 'non-stop', 'Total_Duration': 5, 'Journey_month': '08', 'Journey_day': '30'}
+21-08-2021 18:25:10,INFO,Obj created
+21-08-2021 18:25:10,INFO,Frame created and data appended
+21-08-2021 18:25:10,INFO,Dummy variables created from received data
+21-08-2021 18:25:10,INFO,Data scaled and sent for prediction
+21-08-2021 18:25:28,INFO,Inside addData
+21-08-2021 18:25:28,INFO,Inside addData
+21-08-2021 18:25:28,INFO,String created
+21-08-2021 18:25:28,INFO,Key created
+21-08-2021 18:25:28,INFO,Column inserted <cassandra.cluster.ResultSet object at 0x000002386A591190>
+21-08-2021 18:25:28,INFO,Data retrieved
+21-08-2021 18:25:28,INFO,Threading join !
+21-08-2021 18:25:28,INFO,Prediction success!
+21-08-2021 18:25:28,INFO,Output displayed!
+21-08-2021 18:25:52,INFO,Requested method : POST
+21-08-2021 18:25:52,INFO,Pickle Model Loaded
+21-08-2021 18:25:52,INFO,Data Converted 
+21-08-2021 18:25:52,INFO,Threading Called !
+21-08-2021 18:25:52,INFO,Threading Created !
+21-08-2021 18:25:52,INFO,Data received From User : {'Airline': 'IndiGo', 'Source': 'Banglore', 'Destination': 'Delhi', 'Total_Stops': 'non-stop', 'Departure_Date': '2021-08-30', 'Total_Duration': 5, 'submit': ' Submit '}
+21-08-2021 18:25:52,INFO,Threading Started !
+21-08-2021 18:25:52,INFO,Data for Database: {'Airline': 'IndiGo', 'Source': 'Banglore', 'Destination': 'Delhi', 'Total_Stops': 'non-stop', 'Departure_Date': '2021-08-30', 'Total_Duration': 5, 'submit': ' Submit '}
+21-08-2021 18:25:52,INFO,Data Cleaned : {'Airline': 'IndiGo', 'Source': 'Banglore', 'Destination': 'Delhi', 'Total_Stops': 'non-stop', 'Total_Duration': 5, 'Journey_month': '08', 'Journey_day': '30'}
+21-08-2021 18:25:52,INFO,Obj created
+21-08-2021 18:25:52,INFO,Frame created and data appended
+21-08-2021 18:25:52,INFO,Dummy variables created from received data
+21-08-2021 18:25:52,INFO,Data scaled and sent for prediction
+21-08-2021 18:26:15,INFO,Inside addData
+21-08-2021 18:26:15,INFO,Inside addData
+21-08-2021 18:26:15,INFO,String created
+21-08-2021 18:26:15,INFO,Key created
+21-08-2021 18:26:16,INFO,Column inserted <cassandra.cluster.ResultSet object at 0x000002386A5BF280>
+21-08-2021 18:26:16,INFO,Data retrieved
+21-08-2021 18:26:16,INFO,Threading join !
+21-08-2021 18:26:16,INFO,Prediction success!
+21-08-2021 18:26:16,INFO,Output displayed!
+21-08-2021 18:26:55,INFO,Requested method : POST
+21-08-2021 18:26:55,INFO,Pickle Model Loaded
+21-08-2021 18:26:55,INFO,Data Converted 
+21-08-2021 18:26:55,INFO,Threading Called !
+21-08-2021 18:26:55,INFO,Threading Created !
+21-08-2021 18:26:55,INFO,Data received From User : {'Airline': 'IndiGo', 'Source': 'Banglore', 'Destination': 'Delhi', 'Total_Stops': 'non-stop', 'Departure_Date': '2021-08-30', 'Total_Duration': 5, 'submit': ' Submit '}
+21-08-2021 18:26:55,INFO,Data for Database: {'Airline': 'IndiGo', 'Source': 'Banglore', 'Destination': 'Delhi', 'Total_Stops': 'non-stop', 'Departure_Date': '2021-08-30', 'Total_Duration': 5, 'submit': ' Submit '}
+21-08-2021 18:26:55,INFO,Threading Started !
+21-08-2021 18:26:55,INFO,Data Cleaned : {'Airline': 'IndiGo', 'Source': 'Banglore', 'Destination': 'Delhi', 'Total_Stops': 'non-stop', 'Total_Duration': 5, 'Journey_month': '08', 'Journey_day': '30'}
+21-08-2021 18:26:55,INFO,Obj created
+21-08-2021 18:26:55,INFO,Frame created and data appended
+21-08-2021 18:26:55,INFO,Dummy variables created from received data
+21-08-2021 18:26:55,INFO,Data scaled and sent for prediction
+21-08-2021 18:27:13,INFO,Requested method : POST
+21-08-2021 18:27:14,INFO,Pickle Model Loaded
+21-08-2021 18:27:14,INFO,Data Converted 
+21-08-2021 18:27:14,INFO,Threading Called !
+21-08-2021 18:27:14,INFO,Threading Created !
+21-08-2021 18:27:14,INFO,Data for Database: {'Airline': 'IndiGo', 'Source': 'Banglore', 'Destination': 'Delhi', 'Total_Stops': 'non-stop', 'Departure_Date': '2021-08-30', 'Total_Duration': 5, 'submit': ' Submit '}
+21-08-2021 18:27:14,INFO,Threading Started !
+21-08-2021 18:27:14,INFO,Data received From User : {'Airline': 'IndiGo', 'Source': 'Banglore', 'Destination': 'Delhi', 'Total_Stops': 'non-stop', 'Departure_Date': '2021-08-30', 'Total_Duration': 5, 'submit': ' Submit '}
+21-08-2021 18:27:14,INFO,Data Cleaned : {'Airline': 'IndiGo', 'Source': 'Banglore', 'Destination': 'Delhi', 'Total_Stops': 'non-stop', 'Total_Duration': 5, 'Journey_month': '08', 'Journey_day': '30'}
+21-08-2021 18:27:14,INFO,Frame created and data appended
+21-08-2021 18:27:14,INFO,Dummy variables created from received data
+21-08-2021 18:27:14,INFO,Data scaled and sent for prediction
+21-08-2021 18:27:14,INFO,Threading join !
+21-08-2021 18:27:14,INFO,Prediction success!
+21-08-2021 18:27:14,INFO,Output displayed!

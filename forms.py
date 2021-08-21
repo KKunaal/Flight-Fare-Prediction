@@ -14,11 +14,11 @@ class SignUpForm(FlaskForm):
 
     stopValues = ['non-stop', '1 stop', '2 stops' ,'3 stops', '4 stops']
 
-    Airline = SelectField('Select Your AirLine Service ', choices=airlineValues)
-    Source = SelectField('Select Source ', choices=sourceValues)
-    Destination = SelectField('Select Destination ', choices=destinationValues)
-    Total_Stops = SelectField('Select Total Stops ', choices=stopValues )
-    Total_Duration = FloatField('Enter Total Duration', validators=[validators.Required()])
+    Airline = SelectField('Choose Airline Service ', choices=airlineValues)
+    Source = SelectField('Source ', choices=sourceValues)
+    Destination = SelectField(' Destination ', choices=destinationValues)
+    Total_Stops = SelectField('Total Stops ', choices=stopValues )
+    Total_Duration = FloatField('Total Duration of travel', validators=[validators.Required()])
     Departure_Date = DateField('Enter Departure Date: ', format='%m/%d/%Y', validators=[validators.data_required()])
 
-    submit = SubmitField(' Calculate Total Flight Fare! ')
+    submit = SubmitField(' Submit ')

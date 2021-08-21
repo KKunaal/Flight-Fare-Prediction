@@ -1,4 +1,4 @@
-# All Necessary Library Imports
+# Necessary Library Imports
 from DatabaseConnection.Database import Connector
 import threading
 from joblib import load
@@ -15,12 +15,6 @@ class ThreadWithResult(threading.Thread):
         super().__init__(group=group, target=function, name=name, daemon=daemon)
 
 def backend(result):
-    """
-    :DESC: This function send data into database. If table is not present it creates one and adds data.
-    :param result: provided by Thread creater
-    :return: None
-    """
-
     logging.info('INFO', 'Data for Database: {}'.format(result))
     result['Journey_month'] = int(result['Journey_month'])
     result['Journey_day'] = int(result['Journey_day'])
@@ -36,14 +30,6 @@ def backend(result):
         logging.info('INFO', 'Data retrieved')
 
 def featureCorrection(result):
-    """
-    :DESC: This Function takes data provided by user and performs OneHot Endcoding + Feature Scaling
-           It uses two files 1) outlier removed file 2) FeatureScaler File
-
-    :param result: Provided by Thread creater
-    :return: Sends Data to front end
-    """
-
     logging.info('INFO', 'Data received From User : {}'.format(result))
     result['Journey_month'] = result['Departure_Date'].split('-')[1]
     result['Journey_day'] = result['Departure_Date'].split('-')[2]
@@ -69,11 +55,6 @@ def featureCorrection(result):
     return result
 
 def getResult(result):
-    """
-    :Desc: This function creates thread for featureCorrection,backend
-    :param result: User Provided
-    :return: Sends data into featureCorrection,backend
-    """
     logging.info('INFO', 'Threading Called !')
     in1 = result
     in2 = result
@@ -87,6 +68,3 @@ def getResult(result):
     thread2.join()
     logging.info('INFO', 'Threading join !')
     return thread1.result
-
-
-

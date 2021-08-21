@@ -1,4 +1,4 @@
-# All Necessary Library Imports
+#Necessary Library Imports
 from CustomLogger.logger import Logger
 import numpy as np
 from DatabaseConnection.Database import Connector
@@ -7,7 +7,7 @@ from forms import SignUpForm
 from joblib import load
 from featureSetting import getResult
 
-# Flask App and Secret Key
+# Secret key to keep the client-side sessions secure
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'ABC235G5K8'
 
@@ -17,13 +17,6 @@ logging = Logger('logFiles/test.log')
 
 @app.route("/", methods = ['GET','POST'])
 def home():
-    """
-    :Desc: This is our home api, It handles exception together with rendering.
-           Adds combination provided by user into Database
-           Stores all the steps using logger
-    :return: Render index.html Template
-
-    """
     form = SignUpForm()
     if request.method == 'POST':
         logging.info('INFO', 'Requested method : POST')
@@ -54,13 +47,9 @@ def home():
 
     return render_template('index.html',form=form,value1=None,value2=None)
 
-# Hidden DataBase API
+#DataBase API
 @app.route("/DatabaseData", methods = ['GET','POST'])
 def test():
-    """
-    :DESC: This is Hidden Api. It Retrieves Data from Database.
-    :return: Render Databasedata.html Template
-    """
     heading = ("id", "Airline", "Destination", "Day", "Month", "Source", "Total_Duration","Total_Stops")
     data = Connector()
     return render_template('Databasedata.html', heading=heading, data=data.getData())

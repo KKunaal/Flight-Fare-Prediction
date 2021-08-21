@@ -1,4 +1,15 @@
 # FlightFareEstimatorProject
+
+## Running the project in your system:
+1. Setup Virtual Python Environment inside the project folder
+   i. Run pip install virtualenv
+   ii. Run virtualenv env
+   ii. Run .\env\Scripts\activator.ps1
+2. Setup the python interpreter of the project as the interpreter from env file created in last steps.
+3. Run the command pip install -r requirements.txt
+4. Run python .\app.py
+5. Enjoy
+
 ## Problem Statement:
 
 <p>Travelling through flights has become an integral part of today’s lifestyle as more and more people are opting for faster travelling options. The flight ticket prices increase or decrease every now and then depending on various factors like timing of the flights, destination, and duration of flights various occasions such as vacations or festive season. Therefore, having some basic idea of the flight fares before planning the trip will surely help many people save money and time.</p>

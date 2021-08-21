@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FlightFareEstimatorProject
 ## Problem Statement:
 
@@ -39,3 +40,6 @@ Link : https://flightfareestimatorapi.herokuapp.com/
 
 ## Help Me Improve
 <p> Hello Reader if you find any bug please consider raising issue I will address them asap.</p>
+=======
+# Flight-Fare-Prediction
+>>>>>>> 64d29b398b8221daf0cab559693f413dc200faa9

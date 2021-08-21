@@ -1,5 +1,7 @@
 from flask_wtf import FlaskForm
+from flask_wtf.recaptcha import widgets
 from wtforms import SubmitField,SelectField,validators,FloatField
+import wtforms
 from wtforms.fields.html5 import DateField,IntegerRangeField
 
 class SignUpForm(FlaskForm):

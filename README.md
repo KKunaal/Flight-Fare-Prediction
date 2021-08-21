@@ -30,8 +30,6 @@
 ## Project Interface
 Link : https://flightfareestimatorapi.herokuapp.com/
 
-![Interface](https://user-images.githubusercontent.com/40850370/128631238-3cc908cb-eb3a-49b5-96e5-4f996d825d81.png)
-
 ## Technologies Used
 <pre> 
 1. Python 

@@ -2,9 +2,9 @@
 
 ## Running the project in your system:
 1. Setup Virtual Python Environment inside the project folder
-   i. Run pip install virtualenv
-   ii. Run virtualenv env
-   ii. Run .\env\Scripts\activator.ps1
+   1. Run pip install virtualenv
+   2. Run virtualenv env
+   3. Run .\env\Scripts\activator.ps1
 2. Setup the python interpreter of the project as the interpreter from env file created in last steps.
 3. Run the command pip install -r requirements.txt
 4. Run python .\app.py

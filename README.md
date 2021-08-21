@@ -28,7 +28,7 @@
                                 After that I have deployed project on heroku</li></pre>
 
 ## Project Interface
-Link : https://flightfareestimatorapi.herokuapp.com/
+Link : https://flight-fare-predictor-webapp.herokuapp.com/
 
 ## Project FrontEnd
 ![alt text](ProjectSS.png)

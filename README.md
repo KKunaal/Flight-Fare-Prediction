@@ -33,16 +33,13 @@ Link : https://flightfareestimatorapi.herokuapp.com/
 ## Project FrontEnd
 ![alt text](ProjectSS.png)
 
-## Technologies Used
-<pre> 
+## Project Stack
 1. Python 
 2. Sklearn
 3. Flask
 4. Html
 5. Css
 6. Pandas, Numpy 
-
-</pre>
 
 
 ## High Level Design Document 

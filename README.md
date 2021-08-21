@@ -39,12 +39,11 @@ Link : https://flightfareestimatorapi.herokuapp.com/
 3. Flask
 4. Html
 5. Css
-6. Pandas, Numpy 
+6. Pandas, Numpy
 
+# Authors:
+#### 1. [Kunal Ghanghav](#https://github.com/KKunaal)
+#### 2. [Anshita Srivastava](#https://github.com/anshita22)
 
-## High Level Design Document 
+#### Copyright &copy; 2021 | [Kunal Ghanghav](https://github.com/KKunaal) [Anshita Srivastava](https://github.com/anshita22) | All rights reserved.
 
-## Low Level Desgin Document 
-
-## Help Me Improve
-<p> Hello Reader if you find any bug please consider raising issue I will address them asap.</p>

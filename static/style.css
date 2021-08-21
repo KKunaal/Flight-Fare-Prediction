@@ -11,7 +11,7 @@ body{
   justify-content: center;
   align-items: center;
   padding: 10px;
-  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  background: linear-gradient(135deg,black,white);
 }
 .container{
   max-width: 700px;
@@ -64,7 +64,7 @@ form .input-box span.details{
 }
 .user-details .input-box input:focus,
 .user-details .input-box input:valid{
-  border-color: #9b59b6;
+  border-color: black;
 }
 
  form .button{
@@ -82,11 +82,11 @@ form .input-box span.details{
    letter-spacing: 1px;
    cursor: pointer;
    transition: all 0.3s ease;
-   background: linear-gradient(135deg, #71b7e6, #9b59b6);
+   background: linear-gradient(135deg, black,white);
  }
  form .button input:hover{
   /* transform: scale(0.99); */
-  background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+  background: linear-gradient(-135deg, black,white);
   }
  @media(max-width: 584px){
  .container{
@@ -114,7 +114,7 @@ form .user-details .input-box{
 }
 .outputbox{
 height: 25px;
-background-color: #33DCAE;
+background-color: white;
 border: 2px solid black;
 }
 

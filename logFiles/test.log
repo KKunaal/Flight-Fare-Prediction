@@ -360,3 +360,25 @@ e! '}
 21-08-2021 18:27:14,INFO,Threading join !
 21-08-2021 18:27:14,INFO,Prediction success!
 21-08-2021 18:27:14,INFO,Output displayed!
+22-08-2021 12:22:28,INFO,Requested method : POST
+22-08-2021 12:22:43,INFO,Pickle Model Loaded
+22-08-2021 12:22:43,INFO,Data Converted 
+22-08-2021 12:22:43,INFO,Threading Called !
+22-08-2021 12:22:43,INFO,Threading Created !
+22-08-2021 12:22:43,INFO,Data received From User : {'Source': 'Kolkata', 'Destination': 'Banglore', 'Total_Stops': '1 stop', 'Departure_Date': '2021-08-30', 'Total_Duration': 5, 'Airline': 'IndiGo', 'submit': ' Submit '}
+22-08-2021 12:22:43,INFO,Threading Started !
+22-08-2021 12:22:43,INFO,Data for Database: {'Source': 'Kolkata', 'Destination': 'Banglore', 'Total_Stops': '1 stop', 'Departure_Date': '2021-08-30', 'Total_Duration': 5, 'Airline': 'IndiGo', 'submit': ' Submit '}
+22-08-2021 12:22:43,INFO,Obj created
+22-08-2021 12:22:43,INFO,Data Cleaned : {'Source': 'Kolkata', 'Destination': 'Banglore', 'Total_Stops': '1 stop', 'Total_Duration': 5, 'Airline': 'IndiGo', 'Journey_month': '08', 'Journey_day': '30'}
+22-08-2021 12:22:44,INFO,Frame created and data appended
+22-08-2021 12:22:44,INFO,Dummy variables created from received data
+22-08-2021 12:22:44,INFO,Data scaled and sent for prediction
+22-08-2021 12:23:01,INFO,Inside addData
+22-08-2021 12:23:02,INFO,Inside addData
+22-08-2021 12:23:02,INFO,String created
+22-08-2021 12:23:02,INFO,Key created
+22-08-2021 12:23:02,INFO,Column inserted <cassandra.cluster.ResultSet object at 0x00000210588E1AC0>
+22-08-2021 12:23:02,INFO,Data retrieved
+22-08-2021 12:23:02,INFO,Threading join !
+22-08-2021 12:23:02,INFO,Prediction success!
+22-08-2021 12:23:02,INFO,Output displayed!

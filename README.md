@@ -1,4 +1,4 @@
-# FlightFareEstimatorProject
+# Flight Fare Predictor Project
 
 ## Running the project in your system:
 1. Setup Virtual Python Environment inside the project folder
